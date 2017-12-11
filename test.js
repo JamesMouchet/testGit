@@ -3,14 +3,9 @@ function validateEmail(email){
 	var valid = emailReg.test(email);
 	return valid;
 }
-
-
 console.log(validateEmail('james@hotmail.fr'))
 console.log("exercice 6");
 $(document).ready(function() {
-
-
-	
 	$('input').keyup(function() {
 		let userInput = $(this).val();
 		console.log(userInput);
